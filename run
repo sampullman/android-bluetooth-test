@@ -1,2 +1,9 @@
+#!/bin/bash
+
 ant debug
-adb install -r bin/Bluetooth-debug.apk
+
+adb -s 9904f87c install -r bin/AndroidBluetooth-debug.apk
+if [ $# -ne 0 ]
+then
+	adb -s C7OKAS142668 install -r bin/AndroidBluetooth-debug.apk
+fi

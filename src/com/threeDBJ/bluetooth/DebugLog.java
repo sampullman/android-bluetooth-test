@@ -1,4 +1,4 @@
-package com.threeDBJ.bluetooth;
+package com.threeDBJ.bluetooth.test;
 
 import android.util.Log;
 

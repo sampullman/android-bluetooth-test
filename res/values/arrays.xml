@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="line_term_entries">
+    <item>None</item>
+    <item>LF (\\n)</item>
+    <item>CRLF (\\r\\n)</item>
+    <item>LFCR (\\n\\r)</item>
+  </string-array>
+  <string-array name="line_term_entryvalues">
+    <item></item>
+    <item>\n</item>
+    <item>\r\n</item>
+    <item>\n\r</item>
+  </string-array>
+  <string-array name="message_type_entries">
+    <item>ASCII Characters</item>
+    <item>Byte Values (Space separated)</item>
+  </string-array>
+  <string-array name="message_type_entryvalues">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+</resources>

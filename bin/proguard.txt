@@ -58,9 +58,12 @@
 # view res/layout/abs__search_view.xml #generated:84
 -keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
 
-# view AndroidManifest.xml #generated:16
--keep class com.threeDBJ.bluetooth.BluetoothActivity { <init>(...); }
+# view AndroidManifest.xml #generated:21
+-keep class com.threeDBJ.bluetooth.BluetoothDiscoverList { <init>(...); }
 
-# view AndroidManifest.xml #generated:25
--keep class com.threeDBJ.bluetooth.bluetooth.BluetoothDiscoverList { <init>(...); }
+# view AndroidManifest.xml #generated:12
+-keep class com.threeDBJ.bluetooth.test.ApplicationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.threeDBJ.bluetooth.test.Settings { <init>(...); }
 
